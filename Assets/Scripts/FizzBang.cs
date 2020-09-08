@@ -3,7 +3,7 @@
  * Purpose: Create a game called FizzBang, which increments numerically until it reaches a number
  * determined by the player.
  * 
- * Unity Version: 2018.4.19f1
+ * Unity Version: 2019.4.18f1
  */
 using System;
 using System.Collections;
