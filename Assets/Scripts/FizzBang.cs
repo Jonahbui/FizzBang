@@ -2,12 +2,12 @@
  * Date: September 8, 2020
  * Purpose: Create a game called FizzBang, which increments numerically until it reaches a number
  * determined by the player.
+ * 
+ * Unity Version: 2018.4.19f1
  */
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class FizzBang : MonoBehaviour
@@ -50,9 +50,7 @@ public class FizzBang : MonoBehaviour
         {
             // Target number reached, end game
             if (currentIncrement == targetNumber)
-            {
                 StartCoroutine(GameOver(3f));
-            }
         }
     }
 
